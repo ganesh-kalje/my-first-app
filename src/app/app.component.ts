@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  testType(event: Event) {
+      setTimeout(() => {}, 2000);
+      alert('dd');
+  }
 }
